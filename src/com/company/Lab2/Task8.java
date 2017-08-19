@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Task8 {
     public static void main(String[] args) {
-        Integer totalInM, partInCm, totalInCM, izd;
+        Integer totalInM, partInCm, totalInCM, izd, ostatok;
         Scanner s = new Scanner(System.in);
         totalInM = s.nextInt();
         partInCm = s.nextInt();
@@ -18,7 +18,8 @@ public class Task8 {
             else {
             totalInCM = totalInM*100;
             izd = totalInCM/partInCm;
-            System.out.println(izd);
+            ostatok = totalInCM%partInCm;
+            System.out.println(izd + " шт и " + ostatok + " см" );
 
 
         }
