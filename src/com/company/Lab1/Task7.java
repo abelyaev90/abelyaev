@@ -1,3 +1,8 @@
+<<<<<<< Updated upstream
+=======
+package com.company.Lab1;
+
+>>>>>>> Stashed changes
 import java.util.Scanner;
 
 public class Task7 {

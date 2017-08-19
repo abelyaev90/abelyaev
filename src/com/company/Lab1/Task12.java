@@ -2,11 +2,12 @@ package com.company.Lab1;
 
 import java.util.Scanner;
 
-public class Task11 {
+public class Task12 {
     public static void main(String[] args) {
         String cx;
         String  cy;
         String  r;
+        String  fill;
         String  fill;
         Scanner s = new Scanner(System.in);
         cx = s.nextLine();
@@ -17,8 +18,4 @@ public class Task11 {
 
 
     }
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> Stashed changes
