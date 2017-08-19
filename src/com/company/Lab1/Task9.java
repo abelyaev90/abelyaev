@@ -18,8 +18,8 @@ public class Task9 {
 
 
     }
-<<<<<<< Updated upstream
+
 }
-=======
-}
->>>>>>> Stashed changes
+
+
+

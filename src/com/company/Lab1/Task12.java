@@ -8,7 +8,7 @@ public class Task12 {
         String  cy;
         String  r;
         String  fill;
-        String  fill;
+        //String  fill;
         Scanner s = new Scanner(System.in);
         cx = s.nextLine();
         cy = s.nextLine();

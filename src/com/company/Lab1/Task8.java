@@ -10,8 +10,7 @@ public class Task8 {
         System.out.println("\""+a+"\"");
 
     }
-<<<<<<< Updated upstream
+
 }
-=======
-}
->>>>>>> Stashed changes
+
+
