@@ -24,7 +24,7 @@ public class Task8 {
         }
         if (d < 0) {
             System.out.println("Вещественных корней уравнения  " + a + "x^2 + " + b + "x" + c + " нет");
-            return;
+
         }
 
     }
