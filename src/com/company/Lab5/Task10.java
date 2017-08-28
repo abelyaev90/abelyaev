@@ -4,25 +4,31 @@ import java.util.Scanner;
 
 public class Task10 {
     public static void main(String[] args) {
-        Double x, y, z, x1, y1, z1;
+        Double x, y, z;
         Scanner s = new Scanner(System.in);
         x = s.nextDouble();
         y = s.nextDouble();
         z = s.nextDouble();
-        if (x>0){
-            x1 = x*x;
-            System.out.print(x1+";");
-            return;}
-            if (y>0){
-            y1 = y*y;
-                System.out.print(y1+";");
-                return;}
-                if (z>0){
-                z1 = z*z;
-                    System.out.print(z1+";");
-                    return;
+        if (x > 0) {
+            System.out.printf("%8.4f", x * x);
+            System.out.print("; ");
+        } else {
+            System.out.print(x);
+            System.out.print("; ");
         }
-        System.out.println(x+";"+y+";"+z);
-
+        if (y > 0) {
+            System.out.printf("%8.4f", y * y);
+            System.out.print("; ");
+        } else {
+            System.out.print(y);
+            System.out.print("; ");
+        }
+        if (z > 0) {
+            System.out.printf("%8.4f", z * z);
+            System.out.print("; ");
+        } else {
+            System.out.print(z);
+            System.out.print("; ");
+        }
     }
 }
