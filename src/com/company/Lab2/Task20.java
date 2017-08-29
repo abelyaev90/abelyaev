@@ -22,10 +22,8 @@ public class Task20 {
             }else{
             kineticEnergy = (mass*Math.pow(velocity,2))/2;
             potentialEnergy = mass*g*height;
-            System.out.printf("Кинетическая энергия составляет: " + "%8.4f",kineticEnergy);
-            System.out.println(" Дж");
-            System.out.printf("Потенциальная энергия составляет: " + "%8.4f",potentialEnergy);
-            System.out.println(" Дж");
+            System.out.printf("Кинетическая энергия составляет: %.4f Дж",kineticEnergy);
+            System.out.printf("Потенциальная энергия составляет: %8.4f Дж",potentialEnergy);
 
         }
     }
