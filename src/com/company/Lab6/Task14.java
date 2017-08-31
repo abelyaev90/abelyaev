@@ -4,20 +4,23 @@ import java.util.Scanner;
 
 public class Task14 {
     public static void main(String[] args) {
-        Integer a, b, a1, b1;
+        Long a, b, pr;
         Scanner s = new Scanner(System.in);
-        a = s.nextInt();
-        b = s.nextInt();
-        a1 = 1;
-        for (int i = 2; i <= a; i++)
-            a1 *= i;
-        b1 = 1;
-        for (int j = 2; j <= b; j++)
-            b1 *= j;
-        if (b > a) {
-            System.out.println(b1 - a1);
+        a = s.nextLong();
+        b = s.nextLong();
+        pr = 1L;
+        if (a <= b) {
+            while (a <= b) {
+                pr = pr * a;
+                a++;
+            }
+            System.out.println(pr);
         } else {
-            System.out.println(a1 - b1);
+            while (b <= a) {
+                pr = pr * b;
+                b++;
+            }
+            System.out.println(pr);
         }
     }
 }
