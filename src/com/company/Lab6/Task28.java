@@ -13,10 +13,12 @@ public class Task28 {
             System.out.println("Значение X должно быть положительным");
             return;
         }
-        while (a<=x){
-            if (x%b ==0){
-                System.out.print(b+" ");
-
+        while (x>a){
+            if (x%b ==0) {
+                System.out.print(b + " ");
+                a++;
+                b++;
+            }else{
                 a++;
                 b++;
             }
