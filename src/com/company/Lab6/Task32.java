@@ -23,10 +23,9 @@ public class Task32 {
             while (b < w) {
                 System.out.print(s);
                 b++;
-                if (b == w) {
-                    System.out.println("\n");
-                }
             }
+            System.out.println("\n");
         }
     }
 }
+
