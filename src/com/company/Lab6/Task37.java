@@ -18,13 +18,13 @@ public class Task37 {
             System.out.println("Значение H должно быть неотрицательно");
             return;
         }
-        while (p < w) {
-            for (r = q; r==1; r--) {
+       /* while (p <=w) {
+            for (r =1; r<q; r++) {
                 System.out.print("+");
             }
             q++;
             System.out.println();
             p++;
-        }
+        }*/
     }
 }
