@@ -7,14 +7,16 @@ public class Task9 {
         Scanner s = new Scanner(System.in);
         String str = s.nextLine();
         String arr[] = str.split(" ");
-        int n;
-        int m;
-        m=0;
-        while (m<=arr.length-1){
-            int a = Integer.parseInt(arr[m]);
-            m++;
-            System.out.print(a + " ");
+        int x;
+        x = 0;
+      int a;
+        a = arr.length-1;
+        int n = Integer.parseInt(arr[a]);
+        System.out.print(n +" ");
+        while (x<a) {
+            int m = Integer.parseInt(arr[x]);
+            System.out.print(m +" ");
+            x++;
         }
-
     }
 }
