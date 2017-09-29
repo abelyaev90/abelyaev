@@ -8,8 +8,8 @@ public class Task29 {
         Scanner s = new Scanner(System.in);
         xт = s.nextDouble();
         yт = s.nextDouble();
-        xп = s.nextDouble();
-        yп = s.nextDouble();
+        xп = 100.D;
+        yп = 100.D;
         h = s.nextDouble();
         w = s.nextDouble();
         if (h <= 0) {
