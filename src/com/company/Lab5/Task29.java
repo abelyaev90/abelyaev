@@ -10,8 +10,8 @@ public class Task29 {
         yт = s.nextDouble();
         xп = 100.D;
         yп = 100.D;
-        h = s.nextDouble();
-        w = s.nextDouble();
+        h = 70.D;
+        w = 90.D;
         if (h <= 0) {
             System.out.println("Высота должна быть положительна");
             return;
@@ -24,12 +24,16 @@ public class Task29 {
             System.out.println("Координата Y должна быть неотрицательной");
             return;
         }
+        if (xт < 0) {
+            System.out.println("Координата X должна быть неотрицательной");
+            return;
+        }
         xп1 = xп + w;
         yп1 = yп + h;
         if (xт >= xп & xт <= xп1 & yт >= yп & yт <= yп1) {
             System.out.println("точка внутри");
         } else {
-            System.out.println("точка не внутри");
+            System.out.println("Точка снаружи");
         }
 
     }
